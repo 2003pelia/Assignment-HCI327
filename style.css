@@ -61,8 +61,26 @@ article {
     text-align: center;
 }
 
-/* Menu */
+.locations-container{
+    text-align: center;
+    color: #ffffff;
+    padding: 50px;
+    background-color: rgb(43, 43, 43);
+}
 
-/* Event */
+.locations-title{
+    font-size: 50px;
+}
 
-/* Order */
+.card-container{
+    display: flex;
+    align-items: center;
+}
+
+.location-Syr, .location-Osw{
+    width: 300px;
+    height: 550px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+}

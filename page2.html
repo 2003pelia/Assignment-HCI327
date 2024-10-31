@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets\coffee-cup.webp">
-    <link href="style.css" rel="stylesheet">
+    <link href="page2.css" rel="stylesheet">
     <title>Elia Cafe</title>
 </head>
 <body>
@@ -13,8 +13,60 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="page1.html">Menu</a></li>
             <li><a href="page2.html">Order</a></li>
-            <li><a href="page2.html">Event</a></li>
+            <li><a href="page3.html">Event</a></li>
         </ul>
     </nav>
+    <header>
+        <h1>Place Your Order</h1>
+    </header>
+        <section class="order-form">
+            <h2>Food Items</h2>
+            <form id="orderForm">
+                <div class="item">
+                    <label>
+                        <input type="checkbox" name="food" value="Caprese Salad - $10"> Caprese Salad - $10
+                    </label>
+                </div>
+                <div class="item">
+                    <label>
+                        <input type="checkbox" name="food" value="Chicken Sandwich - $12"> Chicken Sandwich - $12
+                    </label>
+                </div>
+                <div class="item">
+                    <label>
+                        <input type="checkbox" name="food" value="Pasta Primavera - $14"> Pasta Primavera - $14
+                    </label>
+                </div>
+                <div class="item">
+                    <label>
+                        <input type="checkbox" name="food" value="Chocolate Cake - $6"> Chocolate Cake - $6
+                    </label>
+                </div>
+
+                <h2>Drinks</h2>
+                <div class="item">
+                    <label>
+                        <input type="checkbox" name="drink" value="Cappuccino - $4"> Cappuccino - $4
+                    </label>
+                </div>
+                <div class="item">
+                    <label>
+                        <input type="checkbox" name="drink" value="Fresh Orange Juice - $5"> Fresh Orange Juice - $5
+                    </label>
+                </div>
+                <div class="item">
+                    <label>
+                        <input type="checkbox" name="drink" value="Herbal Tea - $3"> Herbal Tea - $3
+                    </label>
+                </div>
+                <div class="item">
+                    <label>
+                        <input type="checkbox" name="drink" value="Sparkling Water - $2"> Sparkling Water - $2
+                    </label>
+                </div>
+
+                <button type="submit">Submit Order</button>
+            </form>
+        </section>
 </body>
 </html>
